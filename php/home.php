@@ -1,12 +1,12 @@
 <?php
 
-require_once "config.php"; //antes de mirar nada conectar la db.
+    require_once "config.php"; //antes de mirar nada conectar la db.
 
-session_start();
+    session_start();
 
-if(!isset($_SESSION["username"])) {
-    header("location:index.php");
-}
+    if(!isset($_SESSION["username"])) {
+        header("location:index.php");
+    }
 
 ?>
 
